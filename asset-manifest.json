@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/onboarding-react/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/onboarding-react/static/js/main.5682ea93.chunk.js",
-    "main.js.map": "/onboarding-react/static/js/main.5682ea93.chunk.js.map",
+    "main.js": "/onboarding-react/static/js/main.3ef80780.chunk.js",
+    "main.js.map": "/onboarding-react/static/js/main.3ef80780.chunk.js.map",
     "runtime-main.js": "/onboarding-react/static/js/runtime-main.f1397492.js",
     "runtime-main.js.map": "/onboarding-react/static/js/runtime-main.f1397492.js.map",
     "static/js/2.4a1a0eaf.chunk.js": "/onboarding-react/static/js/2.4a1a0eaf.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f1397492.js",
     "static/js/2.4a1a0eaf.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.5682ea93.chunk.js"
+    "static/js/main.3ef80780.chunk.js"
   ]
 }
