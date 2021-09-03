@@ -10,10 +10,21 @@ export const PropsPractice = () => {
       <section>
         <PageTitle pageTitle='props Practice' />
         <h6>Qué es?</h6>
-        <div style={{ marginBottom: '30px' }}>- Son propiedades de un Component.
-          - Sirven para:
-          - Pasarle data al Component (popularlo con data)
-          - Pasar data entre Components ⇒ El flujo de data entre components siempre es unidireccional, de padre a hijos.</div>
+        <div style={{ marginBottom: '30px' }}>
+          <ul>
+            <li>Son propiedades de un Component.</li>
+            <li>Sirven para:</li>
+              <ul>
+                <li>Pasarle data al Component (popularlo con data)</li>
+                <li>Pasar data entre Components ⇒ El flujo de data entre components siempre es unidireccional, de padre a hijos.</li>
+              </ul>
+          </ul>
+          <p>
+            <a target='_blank' href='https://grand-seaplane-52c.notion.site/6-ReactJS-Fundamentals-4259bea8a63f4e9eaf8967178863fb63#20edda699e2e480198d2518fe5692170'>
+              Más Info - Resumen Notion
+            </a>
+          </p>
+        </div>
 
         <h6>Ejemplo</h6>
         <Heading title='Heading Title' numberRows={34} />

@@ -29,7 +29,18 @@ export const MapPractice = () => {
       <section>
         <PageTitle pageTitle='map Practice' />
         <h6>Qué es?</h6>
-        <div style={{ marginBottom: '30px' }}>- Es una función para operar con arrays -  Transforma cada elemento de un array en otro elemento</div>
+        <div style={{ marginBottom: '30px' }}>
+          <ul>
+            <li>Es una función para operar con arrays</li>
+            <li>Transforma cada elemento de un array en otro elemento</li>
+            <li>Evita repetir components, reduce código y facilita el mantenimiento del mismo. </li>
+          </ul>
+          <p>
+            <a target='_blank' href='#'>
+              Más Info - Resumen Notion
+            </a>
+          </p>
+        </div>
         <h6>Ejemplo</h6>
         <ListItems items={dataList}/>
         <TaskNote task='Crear grilla de Cards y mapearla en base a la data mockeada proporcionada en el .json file | Ver file del Design System de MS.' />
