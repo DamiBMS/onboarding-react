@@ -8,6 +8,7 @@ import {  Route, Switch } from 'react-router-dom'
 import { PropsPractice } from './pages/PropsPractice'
 import { Header } from './components/Header'
 import { MapPractice } from './pages/MapPractice'
+import { StatePractice } from './pages/StatePractice'
 
 function App() {
   const menuLinks = [
@@ -20,6 +21,11 @@ function App() {
       name: 'Props Practice',
       path: '/props',
       component: PropsPractice,
+    },
+    {
+      name: 'State Practice',
+      path: '/state',
+      component: StatePractice,
     },
     {
       name: 'map Practice',
