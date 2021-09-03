@@ -16,7 +16,7 @@ export const PropsPractice = () => {
           - Pasar data entre Components ⇒ El flujo de data entre components siempre es unidireccional, de padre a hijos.</div>
 
         <h6>Ejemplo</h6>
-        <Heading />
+        <Heading title='Heading Title' numberRows={34} />
         <TaskNote task='Crear Avatar component | props para nombre e imagen | Ver file del Design System de MS.' />
       </section>
 

@@ -8,10 +8,9 @@ export const Wrapper = styled.div`
 
 export const HeadingStyled = styled.h1`
   font-size: 30px;
-  color: black;
+  font-weight: bold;
 `
 
 export const NumberHeading = styled.span`
-  font-size: 30px;
-  color: red;
+  font-size: 25px;
 `

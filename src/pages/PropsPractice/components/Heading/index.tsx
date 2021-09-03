@@ -3,13 +3,18 @@ import { HeadingStyled, NumberHeading, Wrapper } from './styled'
 
 // Crear un Heading que reciba por props un title y opcional el número de resultados para tablas
 
-export const Heading = () => {
+interface Props {
+  title: string
+  numberRows?: number
+}
+
+export const Heading = ({title, numberRows}: Props) => {
   return (
     <Wrapper>
       <HeadingStyled>
-        Heading prop
+        {title}
       </HeadingStyled>
-      <NumberHeading>number</NumberHeading>
+      <NumberHeading>{`(${numberRows})`}</NumberHeading>
     </Wrapper>
   )
 
