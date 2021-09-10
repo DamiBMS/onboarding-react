@@ -3,6 +3,7 @@ import { Heading } from './components/Heading'
 import { TaskNote } from '../../components/TaskNote'
 import { PageWrapper } from '../../components/PageWrapper'
 import { PageTitle } from '../../components/PageTitle'
+import { Avatar } from '../../components/Avatar'
 
 export const PropsPractice = () => {
   return (
@@ -32,7 +33,7 @@ export const PropsPractice = () => {
       </section>
 
       <section>
-        {/*// Resolver el ejercicio acá!*/}
+        <Avatar name='Damian Borgognoni' img="https://pixelz.cc/wp-content/uploads/2018/07/hide-the-pain-harold-meme-uhd-4k-wallpaper.jpg" />
       </section>
 
 

@@ -3,6 +3,7 @@ import { TaskNote } from '../../components/TaskNote'
 import { PageWrapper } from '../../components/PageWrapper'
 import { PageTitle } from '../../components/PageTitle'
 import { MessageAlert } from './components/MessageAlert'
+import { Modal } from './components/Modal'
 
 export const StatePractice = () => {
   return (
@@ -44,7 +45,7 @@ export const StatePractice = () => {
       </section>
 
       <section>
-        {/*// Resolver el ejercicio acá!*/}
+        <Modal message='This is my modal, its ugly, but functional. Sorry about that :(.'/>
       </section>
 
 

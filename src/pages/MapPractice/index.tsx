@@ -1,8 +1,11 @@
-import React from 'react'
-import { TaskNote } from '../../components/TaskNote'
-import { PageWrapper } from '../../components/PageWrapper'
-import { PageTitle } from '../../components/PageTitle'
-import { ListItems } from './components/ListItems'
+import React from 'react';
+
+import { TaskNote } from '../../components/TaskNote';
+import { PageWrapper } from '../../components/PageWrapper';
+import { PageTitle } from '../../components/PageTitle';
+import { ListItems } from './components/ListItems';
+import { GridCards } from './components/GridCards';
+import { dataCards } from './__mocks__/dataCards';
 
 export const MapPractice = () => {
 
@@ -47,7 +50,7 @@ export const MapPractice = () => {
       </section>
 
       <section>
-        {/*// Resolver el ejercicio acá!*/}
+        <GridCards props={dataCards} />
       </section>
 
 
