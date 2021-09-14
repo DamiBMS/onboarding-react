@@ -2,25 +2,27 @@ import styled from "styled-components";
 
 export const AvatarWrap = styled.div `
     display: flex;
-    justify-content:space-between;
-    max-width: 350px;
+    justify-content:flex-start;
+    max-width: 300px;
+    
 `
 export const AvatarImg = styled.img `
-    border: 2px solid black;
     border-radius: 50px;
-    width:100px;
-    height:100px;
+    width:40px;
+    height:40px;
     object-fit:cover;
+   
 `
 export const AvatarName = styled.h3 `
-    font-size: 20px;
-    align-self:center;
+    font-size: ${props => props.theme.fontSizes.xl};
+    margin-left: ${props => props.theme.space.s};
+    align-self: center;
 `
 export const AvatarLetter = styled.span `
     border: 2px solid black;
     border-radius: 50px;
-    width:100px;
-    height:100px;
+    width:40px;
+    height:40px;
     background-color:beige;
     color:red;
     font-size: 80px;

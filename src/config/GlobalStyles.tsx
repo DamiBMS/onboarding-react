@@ -17,18 +17,13 @@ export const GlobalStyle = createGlobalStyle`
   body,
   html {
     font-family: ${(props: any): string => props.theme.fontFamily.openSans};
-    font-size: ${props => props.theme.fontSizes.md};
-    line-height:${props => props.theme.lineHeights.normal};
-    font-weight: ${props => props.theme.fontWeights.regular};
     color: ${props => props.theme.colors.text};
     background: #FFFFFF !important;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  p {
-    font-size: ${props => props.theme.fontSizes.sm};
+    margin:0;
+    padding:0;
   }
 
   span {
@@ -101,6 +96,5 @@ export const GlobalStyle = createGlobalStyle`
   
   p {
     font-size: ${props => props.theme.fontSizes.sm};
-    font-weight: ${props => props.theme.fontWeights.regular};
   }
 `

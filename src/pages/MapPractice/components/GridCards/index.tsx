@@ -1,4 +1,6 @@
 import React from 'react';
+import { AvatarImg } from '../../../../components/Avatar/styled'; 
+
 
 import {
   Container,
@@ -7,6 +9,8 @@ import {
   Title,
   SubTitle,
   Text,
+  Header,
+  HeaderTitle,
 } from './styled';
 
 interface ItemCards {
@@ -20,14 +24,23 @@ interface PropsCards {
   props: ItemCards[];
 }
 
+
+//key es mas para un id del map (key={index})
+
+
 export const GridCards = ({ props }: PropsCards) => {
   return (
     <Container>
       {props.map((prop) => (
         <GridContainer>
           <Image src={prop.image}></Image>
-          <Title>{prop.title}</Title>
-          <SubTitle>{prop.subtitle}</SubTitle>
+          <Header>
+            <AvatarImg src={prop.image}/>
+            <HeaderTitle>
+              <Title>{prop.title}</Title>
+              <SubTitle>{prop.subtitle}</SubTitle>
+            </HeaderTitle>    
+          </Header>
           <Text>{prop.text}</Text>
         </GridContainer>
       ))}

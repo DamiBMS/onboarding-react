@@ -14,10 +14,10 @@ export const Modal = ({message}: Props) => {
 
     return (
         <>
-            <Button onClick={() => handleOpen}>Click on me baby!</Button>
+            <Button onClick={() => setIsOpen(true)}>Click on me baby!</Button>
             {isOpen && (
                 <Wrapper>
-                    <CloseButton onClick={() => handleClose}>
+                    <CloseButton onClick={() => setIsOpen(false)}>
                         x
                     </CloseButton>
 
