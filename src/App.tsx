@@ -10,6 +10,8 @@ import { Header } from './components/Header'
 import { MapPractice } from './pages/MapPractice'
 import { StatePractice } from './pages/StatePractice'
 
+
+
 function App() {
   const menuLinks = [
     {
